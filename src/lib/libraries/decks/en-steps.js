@@ -1,7 +1,3 @@
-// Intro
-import introMove from './steps/intro-1-move.en.gif';
-import introSay from './steps/intro-2-say.en.gif';
-import introGreenFlag from './steps/intro-3-green-flag.en.gif';
 
 // Text to Speech
 import speechAddExtension from './steps/speech-add-extension.en.gif';
@@ -14,27 +10,6 @@ import speechSong from './steps/speech-song.en.png';
 import speechChangeColor from './steps/speech-change-color.en.png';
 import speechSpin from './steps/speech-spin.en.png';
 import speechGrowShrink from './steps/speech-grow-shrink.en.png';
-
-// Cartoon Network
-import cnShowCharacter from './steps/cn-show-character.LTR.gif';
-import cnSay from './steps/cn-say.en.png';
-import cnGlide from './steps/cn-glide.en.png';
-import cnPickSprite from './steps/cn-pick-sprite.LTR.gif';
-import cnCollect from './steps/cn-collect.en.png';
-import cnVariable from './steps/add-variable.en.gif';
-import cnScore from './steps/cn-score.en.png';
-import cnBackdrop from './steps/cn-backdrop.en.png';
-
-// Add sprite
-import addSprite from './steps/add-sprite.LTR.gif';
-
-// Animate a name
-import namePickLetter from './steps/name-pick-letter.LTR.gif';
-import namePlaySound from './steps/name-play-sound.en.png';
-import namePickLetter2 from './steps/name-pick-letter2.LTR.gif';
-import nameChangeColor from './steps/name-change-color.en.png';
-import nameSpin from './steps/name-spin.en.png';
-import nameGrow from './steps/name-grow.en.png';
 
 // Make Music
 import musicPickInstrument from './steps/music-pick-instrument.LTR.gif';
@@ -62,28 +37,6 @@ import popGameChangeScore from './steps/pop-game-change-score.en.png';
 import popGameRandomPosition from './steps/pop-game-random-position.en.png';
 import popGameChangeColor from './steps/pop-game-change-color.en.png';
 import popGameResetScore from './steps/pop-game-reset-score.en.png';
-
-// Animate A Character
-import animateCharPickBackdrop from './steps/pick-backdrop.LTR.gif';
-import animateCharPickSprite from './steps/animate-char-pick-sprite.LTR.gif';
-import animateCharSaySomething from './steps/animate-char-say-something.en.png';
-import animateCharAddSound from './steps/animate-char-add-sound.en.png';
-import animateCharTalk from './steps/animate-char-talk.en.png';
-import animateCharMove from './steps/animate-char-move.en.png';
-import animateCharJump from './steps/animate-char-jump.en.png';
-import animateCharChangeColor from './steps/animate-char-change-color.en.png';
-
-// Tell A Story
-import storyPickBackdrop from './steps/story-pick-backdrop.LTR.gif';
-import storyPickSprite from './steps/story-pick-sprite.LTR.gif';
-import storySaySomething from './steps/story-say-something.en.png';
-import storyPickSprite2 from './steps/story-pick-sprite2.LTR.gif';
-import storyFlip from './steps/story-flip.en.gif';
-import storyConversation from './steps/story-conversation.en.png';
-import storyPickBackdrop2 from './steps/story-pick-backdrop2.LTR.gif';
-import storySwitchBackdrop from './steps/story-switch-backdrop.en.png';
-import storyHideCharacter from './steps/story-hide-character.en.png';
-import storyShowCharacter from './steps/story-show-character.en.png';
 
 // Video Sensing
 import videoAddExtension from './steps/video-add-extension.en.gif';
@@ -120,70 +73,6 @@ import pongResetScore from './steps/pong-reset-score.en.png';
 import pongAddLineSprite from './steps/pong-add-line.LTR.gif';
 import pongGameOver from './steps/pong-game-over.en.png';
 
-// Imagine a World
-import imagineTypeWhatYouWant from './steps/imagine-type-what-you-want.en.png';
-import imagineClickGreenFlag from './steps/imagine-click-green-flag.en.png';
-import imagineChooseBackdrop from './steps/imagine-choose-backdrop.LTR.png';
-import imagineChooseSprite from './steps/imagine-choose-any-sprite.LTR.png';
-import imagineFlyAround from './steps/imagine-fly-around.en.png';
-import imagineChooseAnotherSprite from './steps/imagine-choose-another-sprite.LTR.png';
-import imagineLeftRight from './steps/imagine-left-right.en.png';
-import imagineUpDown from './steps/imagine-up-down.en.png';
-import imagineChangeCostumes from './steps/imagine-change-costumes.en.png';
-import imagineGlideToPoint from './steps/imagine-glide-to-point.en.png';
-import imagineGrowShrink from './steps/imagine-grow-shrink.en.png';
-import imagineChooseAnotherBackdrop from './steps/imagine-choose-another-backdrop.LTR.png';
-import imagineSwitchBackdrops from './steps/imagine-switch-backdrops.en.png';
-import imagineRecordASound from './steps/imagine-record-a-sound.en.gif';
-import imagineChooseSound from './steps/imagine-choose-sound.en.png';
-
-// Add a Backdrop
-import addBackdrop from './steps/add-backdrop.LTR.png';
-
-// Add Effects
-import addEffects from './steps/add-effects.en.png';
-
-// Hide and Show
-import hideAndShow from './steps/hide-show.en.png';
-
-// Switch Costumes
-import switchCostumes from './steps/switch-costumes.en.png';
-
-// Change Size
-import changeSize from './steps/change-size.en.png';
-
-// Spin
-import spinTurn from './steps/spin-turn.en.png';
-import spinPointInDirection from './steps/spin-point-in-direction.en.png';
-
-// Record a Sound
-import recordASoundSoundsTab from './steps/record-a-sound-sounds-tab.en.png';
-import recordASoundClickRecord from './steps/record-a-sound-click-record.en.png';
-import recordASoundPressRecordButton from './steps/record-a-sound-press-record-button.en.png';
-import recordASoundChooseSound from './steps/record-a-sound-choose-sound.en.png';
-import recordASoundPlayYourSound from './steps/record-a-sound-play-your-sound.en.png';
-
-// Use Arrow Keys
-import moveArrowKeysLeftRight from './steps/move-arrow-keys-left-right.en.png';
-import moveArrowKeysUpDown from './steps/move-arrow-keys-up-down.en.png';
-
-// Glide Around
-import glideAroundBackAndForth from './steps/glide-around-back-and-forth.en.png';
-import glideAroundPoint from './steps/glide-around-point.en.png';
-
-// Code a Cartoon
-import codeCartoonSaySomething from './steps/code-cartoon-01-say-something.en.png';
-import codeCartoonAnimate from './steps/code-cartoon-02-animate.en.png';
-import codeCartoonSelectDifferentCharacter from './steps/code-cartoon-03-select-different-character.LTR.png';
-import codeCartoonUseMinusSign from './steps/code-cartoon-04-use-minus-sign.en.png';
-import codeCartoonGrowShrink from './steps/code-cartoon-05-grow-shrink.en.png';
-import codeCartoonSelectDifferentCharacter2 from './steps/code-cartoon-06-select-another-different-character.LTR.png';
-import codeCartoonJump from './steps/code-cartoon-07-jump.en.png';
-import codeCartoonChangeScenes from './steps/code-cartoon-08-change-scenes.en.png';
-import codeCartoonGlideAround from './steps/code-cartoon-09-glide-around.en.png';
-import codeCartoonChangeCostumes from './steps/code-cartoon-10-change-costumes.en.png';
-import codeCartoonChooseMoreCharacters from './steps/code-cartoon-11-choose-more-characters.LTR.png';
-
 // Talking Tales
 import talesAddExtension from './steps/speech-add-extension.en.gif';
 import talesChooseSprite from './steps/talking-2-choose-sprite.LTR.png';
@@ -200,10 +89,6 @@ import talesDanceMoves from './steps/talking-12-dance-moves.en.png';
 import talesAskAnswer from './steps/talking-13-ask-and-answer.en.png';
 
 const enImages = {
-    // Intro
-    introMove: introMove,
-    introSay: introSay,
-    introGreenFlag: introGreenFlag,
 
     // Text to Speech
     speechAddExtension: speechAddExtension,
@@ -216,27 +101,6 @@ const enImages = {
     speechChangeColor: speechChangeColor,
     speechSpin: speechSpin,
     speechGrowShrink: speechGrowShrink,
-
-    // Cartoon Network
-    cnShowCharacter: cnShowCharacter,
-    cnSay: cnSay,
-    cnGlide: cnGlide,
-    cnPickSprite: cnPickSprite,
-    cnCollect: cnCollect,
-    cnVariable: cnVariable,
-    cnScore: cnScore,
-    cnBackdrop: cnBackdrop,
-
-    // Add sprite
-    addSprite: addSprite,
-
-    // Animate a name
-    namePickLetter: namePickLetter,
-    namePlaySound: namePlaySound,
-    namePickLetter2: namePickLetter2,
-    nameChangeColor: nameChangeColor,
-    nameSpin: nameSpin,
-    nameGrow: nameGrow,
 
     // Make-Music
     musicPickInstrument: musicPickInstrument,
@@ -264,28 +128,6 @@ const enImages = {
     popGameRandomPosition: popGameRandomPosition,
     popGameChangeColor: popGameChangeColor,
     popGameResetScore: popGameResetScore,
-
-    // Animate A Character
-    animateCharPickBackdrop: animateCharPickBackdrop,
-    animateCharPickSprite: animateCharPickSprite,
-    animateCharSaySomething: animateCharSaySomething,
-    animateCharAddSound: animateCharAddSound,
-    animateCharTalk: animateCharTalk,
-    animateCharMove: animateCharMove,
-    animateCharJump: animateCharJump,
-    animateCharChangeColor: animateCharChangeColor,
-
-    // Tell A Story
-    storyPickBackdrop: storyPickBackdrop,
-    storyPickSprite: storyPickSprite,
-    storySaySomething: storySaySomething,
-    storyPickSprite2: storyPickSprite2,
-    storyFlip: storyFlip,
-    storyConversation: storyConversation,
-    storyPickBackdrop2: storyPickBackdrop2,
-    storySwitchBackdrop: storySwitchBackdrop,
-    storyHideCharacter: storyHideCharacter,
-    storyShowCharacter: storyShowCharacter,
 
     // Video Sensing
     videoAddExtension: videoAddExtension,
@@ -321,70 +163,6 @@ const enImages = {
     pongResetScore: pongResetScore,
     pongAddLineSprite: pongAddLineSprite,
     pongGameOver: pongGameOver,
-
-    // Imagine a World
-    imagineTypeWhatYouWant: imagineTypeWhatYouWant,
-    imagineClickGreenFlag: imagineClickGreenFlag,
-    imagineChooseBackdrop: imagineChooseBackdrop,
-    imagineChooseSprite: imagineChooseSprite,
-    imagineFlyAround: imagineFlyAround,
-    imagineChooseAnotherSprite: imagineChooseAnotherSprite,
-    imagineLeftRight: imagineLeftRight,
-    imagineUpDown: imagineUpDown,
-    imagineChangeCostumes: imagineChangeCostumes,
-    imagineGlideToPoint: imagineGlideToPoint,
-    imagineGrowShrink: imagineGrowShrink,
-    imagineChooseAnotherBackdrop: imagineChooseAnotherBackdrop,
-    imagineSwitchBackdrops: imagineSwitchBackdrops,
-    imagineRecordASound: imagineRecordASound,
-    imagineChooseSound: imagineChooseSound,
-
-    // Add a Backdrop
-    addBackdrop: addBackdrop,
-
-    // Add Effects
-    addEffects: addEffects,
-
-    // Hide and Show
-    hideAndShow: hideAndShow,
-
-    // Switch Costumes
-    switchCostumes: switchCostumes,
-
-    // Change Size
-    changeSize: changeSize,
-
-    // Spin
-    spinTurn: spinTurn,
-    spinPointInDirection: spinPointInDirection,
-
-    // Record a Sound
-    recordASoundSoundsTab: recordASoundSoundsTab,
-    recordASoundClickRecord: recordASoundClickRecord,
-    recordASoundPressRecordButton: recordASoundPressRecordButton,
-    recordASoundChooseSound: recordASoundChooseSound,
-    recordASoundPlayYourSound: recordASoundPlayYourSound,
-
-    // Use Arrow Keys
-    moveArrowKeysLeftRight: moveArrowKeysLeftRight,
-    moveArrowKeysUpDown: moveArrowKeysUpDown,
-
-    // Glide Around
-    glideAroundBackAndForth: glideAroundBackAndForth,
-    glideAroundPoint: glideAroundPoint,
-
-    // Code a Cartoon
-    codeCartoonSaySomething: codeCartoonSaySomething,
-    codeCartoonAnimate: codeCartoonAnimate,
-    codeCartoonSelectDifferentCharacter: codeCartoonSelectDifferentCharacter,
-    codeCartoonUseMinusSign: codeCartoonUseMinusSign,
-    codeCartoonGrowShrink: codeCartoonGrowShrink,
-    codeCartoonSelectDifferentCharacter2: codeCartoonSelectDifferentCharacter2,
-    codeCartoonJump: codeCartoonJump,
-    codeCartoonChangeScenes: codeCartoonChangeScenes,
-    codeCartoonGlideAround: codeCartoonGlideAround,
-    codeCartoonChangeCostumes: codeCartoonChangeCostumes,
-    codeCartoonChooseMoreCharacters: codeCartoonChooseMoreCharacters,
 
     // Talking Tales
     talesAddExtension: talesAddExtension,
